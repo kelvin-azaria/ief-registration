@@ -46,11 +46,15 @@
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#topic">Kategori</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#termsAndCondition">Syarat & Ketentuan</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Tentang</a>
+              </li>
+              
             </ul>
           </div>
         </div>
@@ -62,7 +66,7 @@
       <div class="container-fluid text-white bg-dark py-3">
         <div class="row">
           <div class="col">
-            <small>&copy; Copyright <script>document.write(new Date().getFullYear())</script></small>
+            <small>&copy; Copyright <script>document.write(new Date().getFullYear())</script> IEF Youth Camp</small>
           </div>
           <div class="col">
             

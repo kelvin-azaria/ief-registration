@@ -2,24 +2,21 @@
 
 @section('content')
 <div class="container">
-  <div class="row justify-content-center">
-    <div class="col-md-6">
-      
+  <div class="row">
+    <div class="col-md-12 align-self-center">
+      <h1 class="text-capitalize my-3 text-center">Form Pendaftaran</h1>
     </div>
-    <div class="col-md-6">
-      <div class="card">
-        <div class="card-header">{{ __('Form') }}</div>
-        <div class="card-body">
-          <form method="POST" action="{{ route('contestant.store') }}" 
-                enctype="multipart/form-data">
-            @csrf
+  </div>
+  <div class="row">
+    <div class="col-md-12 my-3 round-border">
+      <form method="POST" action="{{ route('contestant.store') }}" 
+          enctype="multipart/form-data">
+          @csrf
             
-            @include('pages.contestant._form')
+          @include('pages.contestant._form')
 
-            <button type="submit" class="btn btn-success btn-block">Create</button>
-          </form>
-        </div>
-      </div>
+        <button type="submit" class="btn btn-success btn-block">Create</button>
+      </form>
     </div>
   </div>
 </div>

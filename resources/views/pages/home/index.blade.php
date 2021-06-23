@@ -15,7 +15,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-4 align-self-center">
-        <h1 class="w-100">Youngvironment</h1>
+        <h1 class="w-100 my-4">Youngvironment</h1>
         <p>Program sosialisasi dan induksi kepada  Generasi Muda untuk meningkatkan pengetahuan dan aksi nyata perlindungan lingkungan hidup yang di-launching pada peringatan World Environment Day 2021 oleh IEF</p>
       </div>
       <div class="col-lg-8">
@@ -117,17 +117,19 @@
 <section class="my-10" id="reward">
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 pt-4">
         <h1>Daily Rewards</h1>
         <p class="my-5">5 Peserta yang mengupload content dengan pesan dan audiovisual terbaik mendapatkan reward berupa voucher @Rp100 ribu</p>
       </div>
-      <div class="col-md-8">
-        <h1>Champion</h1>
+      <div class="col-md-8 border pt-4">
+        <h1 class="text-center">Champion</h1>
 
         <div class="row text-center my-5">
-          <div class="col-md-4"><h5>Rp 4 000 000 ,-</h5></div>
-          <div class="col-md-4"><h4> Rp 7 000 000 ,-</h4></div>
-          <div class="col-md-4"><h3>Rp 10 000 000,-</h3> </div>
+          <div class="col">
+            <h5>Rp 4 000 000 ,-</h5>
+            <h4> Rp 7 000 000 ,-</h4>
+            <h3>Rp 10 000 000,-</h3>
+          </div>
         </div>
       </div>
     </div>
