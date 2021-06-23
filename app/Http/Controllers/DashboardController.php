@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Contestant;
 use Illuminate\Http\Request;
 
 class DashboardController extends Controller
@@ -21,8 +22,15 @@ class DashboardController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
+    public function show($id)
+    {
+        $contestant = Contestant::findOrFail($id);
+        return view('pages.dashboard.show',['contestant' => $contestant]);
+    }
+
     public function index()
     {
-        return view('pages.dashboard.index');
+        $contestants = Contestant::paginate(10);
+        return view('pages.dashboard.index',['contestants' => $contestants]);
     }
 }
