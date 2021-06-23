@@ -7,7 +7,7 @@
       <h1 class="display-4">Youth Camp for Future Leader on Environment</h1>
       <p class="lead">Crash Program</p>
       <hr class="my-4">
-      <a class="btn btn-primary btn-lg" href="#" role="button">Join Program</a>
+      <a class="btn btn-primary btn-lg" href="{{ route('contestant.create') }}" role="button">Join Program</a>
     </div>
   </div>
 </section>
