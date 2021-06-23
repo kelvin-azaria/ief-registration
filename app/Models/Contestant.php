@@ -4,12 +4,14 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Storage;
 
 class Contestant extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'name', 
+        'name',
+        'ktm_image_path',
         'campus_name',
         'campus_province',
         'campus_city',
@@ -20,4 +22,9 @@ class Contestant extends Model
         'instagram_video_url',
         'description',
     ];
+
+    public function image()
+    {
+        return Storage::url($this->ktm_image_path);
+    }
 }

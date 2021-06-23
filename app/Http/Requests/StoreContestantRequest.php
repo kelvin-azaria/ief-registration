@@ -25,6 +25,7 @@ class StoreContestantRequest extends FormRequest
     {
         return [
             'name'               => 'required|max:50',
+            'ktm_image_path'     => 'required|image|mimes:jpg,jpeg|max:5120|dimensions:min_height=500',
             'campus_name'        => 'required|max:50',
             'campus_province'    => 'required|max:25',
             'campus_city'        => 'required|max:25',

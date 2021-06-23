@@ -1,6 +1,7 @@
 @component('components.errors')
 @endcomponent
 
+{{-- NAMA --}}
 <div class="form-group">
   <label>Nama</label>
   <input 
@@ -11,7 +12,16 @@
     value="{{ old('name',$contestant->name ?? null) }}"/>
 </div>
 
-{{-- Kampus --}}
+{{-- FOTO KTM --}}
+<div class="form-group">
+  <label>Foto KTM</label>
+  <input 
+    type="file" 
+    name="ktm_image_path" 
+    class="form-control-file"/>
+</div>
+
+{{-- KAMPUS --}}
 <div class="form-group">
   <label>Nama Kampus Asal</label>
   <input 

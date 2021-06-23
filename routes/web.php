@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/admin', [DashboardController::class, 'index'])->name('dashboard');
 
-Route::resource('contestant', ContestantController::class)->only(['create', 'store', 'show']);
+Route::resource('contestant', ContestantController::class)->only(['create', 'store']);
+Route::get('/contestant', [ContestantController::class, 'show'])->name('contestant.success');
 
 Auth::routes();

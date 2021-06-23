@@ -8,9 +8,9 @@ use Illuminate\Http\Request;
 
 class ContestantController extends Controller
 {
-    public function show($id)
+    public function show()
     {
-        $contestant = Contestant::findOrFail($id);
+        $contestant = Contestant::findOrFail(session('id'));
         return view('pages.contestant.show', ['contestant' => $contestant]);
     }
 
@@ -22,9 +22,14 @@ class ContestantController extends Controller
     public function store(StoreContestantRequest $request)
     {
         $validate = $request->validated();
-        
-        $c = Contestant::create($validate);
 
-        return redirect()->route('contestant.show', ['contestant' => $c->id]);
+        if ($request->hasFile('ktm_image_path')) {
+            $validate['ktm_image_path'] = $request->file('ktm_image_path')->store('ktm','public');
+            $c = Contestant::create($validate);
+
+            $request->session()->put('id', $c->id);
+
+            return redirect()->route('contestant.success');
+        }
     }
 }

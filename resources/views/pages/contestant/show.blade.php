@@ -19,6 +19,10 @@
                 >
               </div>
               <div class="form-group">
+                <label>Foto KTM</label> <br>
+                <img src="{{ asset($contestant->image()) }}" width="650">
+              </div>
+              <div class="form-group">
                 <label>Nama Kampus</label>
                 <input 
                   type="text"
