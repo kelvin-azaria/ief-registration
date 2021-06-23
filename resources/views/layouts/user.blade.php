@@ -18,6 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" />
+    <link href="{{ asset('css/styles.css') }}" rel="stylesheet" />
   </head>
   <body>
     <div id="app">
@@ -57,5 +58,22 @@
 
       <main class="p-0">@yield('content')</main>
     </div>
+    <footer>
+      <div class="container-fluid text-white bg-dark py-3">
+        <div class="row">
+          <div class="col">
+            <small>&copy; Copyright <script>document.write(new Date().getFullYear())</script></small>
+          </div>
+          <div class="col">
+            
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a href="https://storyset.com">illustrations by Storyset</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
