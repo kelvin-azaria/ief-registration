@@ -6,8 +6,8 @@
     <div class="col-md-8">
       <div class="card">
         <div class="card-header">{{ __('Home') }}</div>
-        <div class="card-body">
-          {{ __('User page') }}
+        <div class="card-body text-center">
+          <a href="{{ route('contestant.create') }}" class="btn btn-primary">Daftar</a>
         </div>
       </div>
     </div>
