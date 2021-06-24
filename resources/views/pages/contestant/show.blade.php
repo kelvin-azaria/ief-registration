@@ -12,7 +12,7 @@
       <div class="row">
         <div class="col-md-7">
           <div class="image-container my-3">
-            <img src="{{ asset($contestant->image()) }}" width="650">
+            <img src="{{ secure_asset($contestant->image()) }}" width="650">
           </div>
           <p class="text-muted m-0">Nama</p>
           <h2 class="mb-3">{{ $contestant->name }}</h2>
