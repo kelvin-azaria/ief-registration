@@ -32,7 +32,7 @@ class StoreContestantRequest extends FormRequest
             'id_card_address'    => 'required|max:255',
             'residence_address'  => 'required|max:255',
             'phone'              => 'required|unique:contestants|max:13',
-            'birth_date'         => 'required',
+            'birth_date'         => 'required|date|before: 18 years ago',
             'instagram_video_url'=> 'required',
             'description'        => 'required',
         ];
