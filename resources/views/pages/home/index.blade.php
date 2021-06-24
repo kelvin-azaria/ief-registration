@@ -9,7 +9,7 @@
       </div>
       <div class="col-md-6 mt-1rem">
         <p>Program sosialisasi dan induksi kepada  Generasi Muda untuk meningkatkan pengetahuan dan aksi nyata perlindungan lingkungan hidup yang di-launching pada peringatan World Environment Day 2021 oleh IEF</p>
-        <a class="btn btn-primary my-3 font-weight-bold text-capitalize p-4" href="{{ url('/') }}" role="button">pelajari lebih lanjut</a>
+        <a class="btn btn-primary my-3 font-weight-bold text-capitalize p-4" href="{{ url('/') }}#about" role="button">pelajari lebih lanjut</a>
       </div>
     </div>
   </div>
@@ -38,6 +38,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-10 text-center">
+        <h3 class="text-white my-3 font-weight-bolder">Tentang IEF</h3>
         <p>Badan Pengelola Dana Lingkungan Hidup (BPDLH) didirikan sebagai amanat dari Peraturan Pemerintah nomor 46 tahun 2017 Pasal 30, yaitu bahwa pengelolaan pendanaan lingkungan hidup yang berasal dari dana penanggulangan pencemaran dan/atau kerusakan dan pemulihan lingkungan hidup dan dana amanah/bantuan konservasi dikelola oleh pemerintah pusat melalui mekanisme pola pengelolaan keuangan badan layanan umum. Amanat tersebut kemudian diturunkan melalui Peraturan Presiden nomor 77 tahun 2018 tentang Pengelolaan Dana Lingkungan Hidup Pasal 8 dan Pasal 10 bahwa organisasi pengelolaan dana lingkungan hidup berbentuk Badan Layanan Umum yang diarahkan oleh 10 (sepuluh) Menteri, yaitu Menteri Koordinator Bidang Perekonomian, Menteri Lingkungan Hidup dan Kehutanan, Menteri Keuangan, Menteri Dalam Negeri, Menteri Energi dan Sumber Daya Mineral, Menteri Perhubungan, Menteri Pertanian, Menteri Perencanaan Pembangunan Nasional/Kepala Badan Perencana Pembangunan Nasional, Menteri Perindustrian, dan Menteri Kelautan dan Perikanan.</p>
       </div>
     </div>
