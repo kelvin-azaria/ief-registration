@@ -10118,8 +10118,15 @@ textarea {
   color: #2B8E29;
 }
 
+.light-green-shadow {
+  background-color: white;
+  box-shadow: 0px 24px 35px rgba(44, 142, 36, 0.12);
+  border-radius: 2rem !important;
+  border: none !important;
+}
+
 .text-green {
-  color: #2B8E29;
+  color: #2B8E29 !important;
 }
 
 .bg-green {
@@ -10211,8 +10218,27 @@ textarea {
   margin-bottom: -5rem !important;
 }
 
+.data-show-text {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #32631A;
+  line-height: 160%;
+}
+
+label {
+  font-size: smaller;
+}
+
+.form-group {
+  margin-bottom: 1.5rem !important;
+}
+
 @media (max-width: 575.98px) {
   body {
+    font-size: 0.875rem !important;
+  }
+
+  .data-show-text {
     font-size: 0.875rem !important;
   }
 
@@ -10230,6 +10256,10 @@ textarea {
 
   .outline-pill {
     margin-bottom: 1.5rem;
+  }
+
+  .data-card-title {
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 991.98px) {

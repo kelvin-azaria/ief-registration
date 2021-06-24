@@ -2,102 +2,44 @@
 
 @section('content')
 <div class="container">
-  <div class="row justify-content-center">
-    <div class="col-md-8">
-      <div class="card">
-        <div class="card-header">{{ __('Form') }}</div>
-        <div class="card-body">
-          <h1>Submitted</h1>
-          <form>
-            <fieldset disabled>
-              <div class="form-group">
-                <label>Nama</label>
-                <input 
-                  type="text"
-                  class="form-control"
-                  value="{{ $contestant->name }}"
-                >
-              </div>
-              <div class="form-group">
-                <label>Foto KTM</label> <br>
-                <img src="{{ asset($contestant->image()) }}" width="650">
-              </div>
-              <div class="form-group">
-                <label>Nama Kampus</label>
-                <input 
-                  type="text"
-                  class="form-control"
-                  value="{{ $contestant->campus_name }}"
-                >
-              </div>
-              <div class="form-group">
-                <label>Provinsi Asal Kampus</label>
-                <input 
-                  type="text"
-                  class="form-control"
-                  value="{{ $contestant->campus_province }}"
-                >
-              </div>
-              <div class="form-group">
-                <label>Kota Asal Kampus</label>
-                <input 
-                  type="text"
-                  class="form-control"
-                  value="{{ $contestant->campus_city }}"
-                >
-              </div>
-              <div class="form-group">
-                <label>Alamat pada KTP</label>
-                <input 
-                  type="text"
-                  class="form-control"
-                  value="{{ $contestant->id_card_address }}"
-                >
-              </div>
-              <div class="form-group">
-                <label>Alamat Domisili</label>
-                <input 
-                  type="text"
-                  class="form-control"
-                  value="{{ $contestant->residence_address }}"
-                >
-              </div>
-              <div class="form-group">
-                <label>No. Whatsapp</label>
-                <input 
-                  type="text"
-                  class="form-control"
-                  value="{{ $contestant->phone }}"
-                >
-              </div>
-              <div class="form-group">
-                <label>Tanggal Lahir</label>
-                <input 
-                  type="text"
-                  class="form-control"
-                  value="{{ $contestant->birth_date }}"
-                >
-              </div>
-              <div class="form-group">
-                <label>URL Video Instagram</label>
-                <input 
-                  type="text"
-                  class="form-control"
-                  value="{{ $contestant->instagram_video_url }}"
-                >
-              </div>
-              <div class="form-group">
-                <label>
-                  Apa yang bisa kamu lakukan untuk lingkungan yang lebih baik untuk masa kini dan masa depan
-                </label>
-                <input 
-                  type="text"
-                  class="form-control"
-                  value="{{ $contestant->description }}"
-                >
-              </div>
-            </fieldset>
-          </form>
+  <div class="row my-5">
+    <div class="col-md-12 round-border light-green-shadow">
+      <div class="row">
+        <div class="col">
+          <h1 class="font-weight-bolder data-card-title">Data Terkirim</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7">
+          <div class="image-container my-3">
+            <img src="{{ asset($contestant->image()) }}" width="650">
+          </div>
+          <p class="text-muted m-0 ">Nama</p>
+          <h3 class="mb-3 text-green font-weight-bold">{{ $contestant->name }}</h3>
+          <p class="text-muted m-0">Tanggal Lahir</p>
+          <h4 class="mb-3 text-green font-weight-bold">{{ $contestant->birth_date }}</h4>
+        </div>
+        <div class="col-md-5">
+          <p class="text-muted m-0">Nama Kampus</p>
+          <h5 class="data-show-text mb-3">{{ $contestant->campus_name }}</h5>
+          <p class="text-muted m-0">Provinsi Asal Kampus</p>
+          <h5 class="data-show-text mb-3">{{ $contestant->campus_province }}</h5>
+          <p class="text-muted m-0">Kota Asal Kampus</p>
+          <h5 class="data-show-text mb-3">{{ $contestant->campus_city }}</h5>
+          <p class="text-muted m-0">Alamat Pada KTP</p>
+          <h5 class="data-show-text mb-3">{{ $contestant->id_card_address }}</h5>
+          <p class="text-muted m-0">Alamat Domisili</p>
+          <h5 class="data-show-text mb-3">{{ $contestant->residence_address }}</h5>
+          <p class="text-muted m-0">Nomor WhatsApp</p>
+          <h5 class="data-show-text mb-3">{{ $contestant->phone }}</h5>
+          <p class="text-muted m-0">Url Video Instagram</p>
+          <h5 class="data-show-text mb-3">{{ $contestant->instagram_video_url }}</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 round-border small-radius">
+          <p class="text-muted m-0">Apa yang bisa kamu lakukan untuk lingkungan yang lebih baik untuk masa kini dan masa depan</p>
+          <h5 class="my-3 data-show-text">{{ $contestant->description }}</h5>
         </div>
       </div>
     </div>
