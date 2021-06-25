@@ -15,8 +15,10 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <!-- Styles -->
+    <link rel="icon" href="{{ asset('img/yc-icon.png') }}">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" />
     <link href="{{ asset('css/styles.css') }}" rel="stylesheet" />
   </head>
@@ -24,7 +26,7 @@
     <div id="app">
       <nav class="navbar navbar-expand-lg navbar-light top-navbar sticky-top">
         <a class="navbar-brand" href="{{ url('/') }}">
-          <img src="{{ asset('img/site-logo.png') }}" width="224"  alt="">
+          <img src="{{ asset('img/site-logo.png') }}" width="232"  alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
           <span class="navbar-toggler-icon"></span>
@@ -34,9 +36,6 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link font-weight-bold" href="{{ url('/') }}#about">Tentang</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link font-weight-bold" href="{{ url('/') }}#contest">Lomba Video</a>
             </li>
             <li class="nav-item">
               <a class="nav-link font-weight-bold" href="{{ url('/') }}#siteVisits">Site Visit</a>
