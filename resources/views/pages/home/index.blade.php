@@ -234,7 +234,7 @@
     <div class="container p-1rem">
       <div class="row justify-content-between">
         <div class="col-md-5">
-          <h3 class="pill pill-title-text text-center">Prizes</h3>
+          <h3 class="pill pill-title-text text-center font-weight-bold dark-text-green bg-light-green">Prizes</h3>
           <div class="row">
             <div class="col-sm-6">
               <div class="image-round-container">
@@ -268,7 +268,7 @@
       </div>
       <div class="row class mt-5 justify-content-between">
         <div class="col-md-5">
-          <h3 class="pill pill-title-text text-center">Total Hadiah</h3>
+          <h3 class="pill pill-title-text text-center font-weight-bold dark-text-green bg-light-green">Total Hadiah</h3>
           <div class="row">
             <div class="col">
               <h3 class="text-capitalize font-weight-bold subsection-title w-100 text-center my-4">Daily Rewards</h3>
@@ -314,26 +314,10 @@
         <div class="col">
           <h2 class="text-capitalize font-weight-bold subsection-title w-100 text-center my-5">-- Syarat Pendaftaran --</h2>
         </div>
-<<<<<<< HEAD
       </div>
       <div class="row">
         <div class="col">
-          <ul>
-            <li>Kompetisi Youth Camp terbuka untuk seluruh mahasiswa/mahasiswi berumur 18 – 25 tahun</li>
-            <li>Peserta merupakan Warga Negara Indonesia yang memiliki kartu tanda penduduk resmi dan kartu mahasiswa yang masih berlaku</li>
-            <li>Peserta memiliki akun media sosial Instagram</li>
-            <li>Akun peserta tidak boleh dikunci (private)</li>
-          </ul>
-=======
-      </div>
-      <div class="row">
-        <div class="col">
-          <ul>
-            <li>Kompetisi Youth Camp terbuka untuk seluruh mahasiswa/mahasiswi berumur 18 – 25 tahun</li>
-            <li>Peserta merupakan Warga Negara Indonesia yang memiliki kartu tanda penduduk resmi dan kartu mahasiswa yang masih berlaku</li>
-            <li>Peserta memiliki akun media sosial Instagram</li>
-            <li>Akun peserta tidak boleh dikunci (private)</li>
-          </ul>
+          <p class="text-center">Untuk detail lebih lajut mengenai syarat dan ketentuan silahkan download booklet dibawah</p>
         </div>
       </div>
       <div class="row">
@@ -341,7 +325,6 @@
           <a class="btn cta-button my-3 font-weight-bold text-capitalize p-4" href="{{ route('download.booklet','booklet.docx') }}#about" role="button">
             Unduh Booklet <i class="fa fa-angle-double-right" aria-hidden="true"></i>
           </a>
->>>>>>> master
         </div>
       </div>
     </div>

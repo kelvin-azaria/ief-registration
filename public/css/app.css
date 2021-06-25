@@ -10173,6 +10173,10 @@ textarea {
   font-weight: 800;
 }
 
+.bg-light-green {
+  background-color: #A3C913 !important;
+}
+
 .pill {
   background: #F9BD5D;
   border-radius: 1.5rem;
