@@ -34,6 +34,8 @@
           <h5 class="data-show-text mb-3">{{ $contestant->phone }}</h5>
           <p class="text-muted m-0">Url Video Instagram</p>
           <h5 class="data-show-text mb-3">{{ $contestant->instagram_video_url }}</h5>
+          <p class="text-muted m-0">Url Tiktok</p>
+          <h5 class="data-show-text mb-3">{{ $contestant->tiktok_url }}</h5>
         </div>
       </div>
       <div class="row">

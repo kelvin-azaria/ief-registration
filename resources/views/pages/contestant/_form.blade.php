@@ -5,7 +5,7 @@
       <label>Nama</label>
       <input 
         type="text" 
-        name="name" 
+        name="name"
         class="form-control @error('name') is-invalid @enderror"
         placeholder="Masukan nama peserta anda"
         value="{{ old('name',$contestant->name ?? null) }}"/>
@@ -113,6 +113,15 @@
         placeholder="Masukan link dari video instagram anda"
         value="{{ old('instagram_video_url', $contestant->instagram_video_url ?? null) }}"/>
     </div> 
+    <div class="form-group">
+      <label>Link Tiktok</label>
+      <input 
+        type="text"
+        name="tiktok_url" 
+        class="form-control @error('tiktok_url') is-invalid @enderror"
+        placeholder="Masukan link dari video tiktok anda"
+        value="{{ old('tiktok_url', $contestant->tiktok_url ?? null) }}"/>
+    </div> 
   </div>
 </div>
 <div class="row">
@@ -134,6 +143,22 @@
         style="min-width: 100%"
         rows="10"
       >{{ old('description', $contestant->description ?? null) }}</textarea>
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" name="terms" onClick="EnableSubmit(this)">
+      <label class="form-check-label" for="exampleCheck1">
+        Dengan ini saya menyetujui bahwa content Instagram dan Tiktok yang saya unggah untuk 
+        pendaftaran dan pelaksanaan challenges kegiatan Youth Camp for Future Leader on 
+        Environment Tahun 2021 dapat digunakan oleh Panitia dan BPDLH/IEF untuk keperluan 
+        publikasi dan non komersial lainnya.
+      </label>
+      @error('terms')
+        <div class="mt-2 mb-2">
+            <div class="alert alert-danger" role="alert">
+              {{ $message }}
+            </div>
+        </div>
+      @enderror
     </div>
   </div>
 </div>

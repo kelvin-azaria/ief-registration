@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddKtmImagePathToContestants extends Migration
+class AddTiktokUrlToContestants extends Migration
 {
     /**
      * Run the migrations.
@@ -14,7 +14,7 @@ class AddKtmImagePathToContestants extends Migration
     public function up()
     {
         Schema::table('contestants', function (Blueprint $table) {
-            $table->string('ktm_image_path')->after('name');
+            $table->string('tiktok_url')->after('instagram_video_url');
         });
     }
 
@@ -26,7 +26,7 @@ class AddKtmImagePathToContestants extends Migration
     public function down()
     {
         Schema::table('contestants', function (Blueprint $table) {
-            $table->dropColumn('ktm_image_path');
+            $table->dropColumn('tiktok_url');
         });
     }
 }

@@ -20,6 +20,7 @@ class Contestant extends Model
         'phone',
         'birth_date',
         'instagram_video_url',
+        'tiktok_url',
         'description',
     ];
 
