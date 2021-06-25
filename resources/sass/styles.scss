@@ -184,6 +184,11 @@ textarea{
 label{
   font-size: smaller;
 }
+.long-hashtag{
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+}
 .form-group {
   margin-bottom: 1.5rem !important;
 }

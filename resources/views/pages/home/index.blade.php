@@ -48,7 +48,7 @@
   <img src="{{ asset('img/green-background-bottom-1.svg') }}" alt="">
 </div>
 
-<section id="contest"  class=" m-responsive">
+<section id="contest" class="py-3">
   <div class="container p-1rem">
     <div class="row">
       <div class="col-md-6 align-self-center">
@@ -57,8 +57,10 @@
         </div>
       </div>
       <div class="col-md-6">
-        <h1 class="section-title text-uppercase w-100 text-center">Video Contest</h1>
-        <p class="outline-pill text-center font-weight-bold">Generasi Muda, Generasi Youngvironment</p>
+        <div>
+          <h1 class="section-title text-uppercase w-100 text-center my-2">Video Contest</h1>
+          <p class="outline-pill text-center font-weight-bold">Generasi Muda, Generasi Youngvironment</p>
+        </div>
         <p class="pb-1">Sampaikan Pesan dan kepedulianmu terhadap lingkungan, upload aksi kamu dan jadilah Youngvironment</p>
         <a class="btn btn-primary w-100 text-center p-3 font-weight-bold my-3" href="{{ route('contestant.create') }}" role="button">Registrasi</a>
       </div>
@@ -111,7 +113,9 @@
   </div>
 </section>
 
-
+<div class="background-tail-img">
+  <img src="{{ asset('img/green-background-head-1.svg') }}" alt="">
+</div>
 <section id="onlineClass" class=" py-3 bg-green text-white">
   <div class="container p-1rem">
     <div class="row">
@@ -148,11 +152,14 @@
     </div>
   </div>
 </section>
+<div class="background-tail-img">
+  <img src="{{ asset('img/green-background-bottom-1.svg') }}" alt="">
+</div>
 
-<section id="rewards"  class=" m-responsive">
+<section id="rewards">
   <div class="container p-1rem">
-    <div class="row">
-      <div class="col-md-6 side-image">
+    <div class="row justify-content-between">
+      <div class="col-md-5">
         <h3 class="pill pill-title-text text-center">Hadiah Pemenang</h3>
         <div class="row">
           <div class="col-sm-6">
@@ -185,8 +192,8 @@
         </ul>
       </div>
     </div>
-    <div class="row class mt-5">
-      <div class="col-md-6 side-image">
+    <div class="row class mt-5 justify-content-between">
+      <div class="col-md-5">
         <h3 class="pill pill-title-text text-center">Total Hadiah</h3>
         <div class="row">
           <div class="col">
@@ -208,12 +215,14 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 align-self-center my-4">
-        <h2 class="text-capitalize font-weight-bold subsection-title w-100 text-center">Dapatkan</h2>
+      <div class="col-md-6 align-self-center">
+        <h2 class="text-capitalize font-weight-bold subsection-title w-100 text-center my-4">Dapatkan</h2>
         <ul>
-          <li>Kesempatan menghadiri IEF Expose yang dihadiri oleh para Mentri</li>
-          <li>Kunjungan Site Visit dengan prokes dan FREE</li>
-          <li>Daily Reward, Pemenang Favorit, Grand Awards dan 76 Peserta yang terpilih akan mendapatkan follow back Instagram oleh akun resmi Kemenkeu</li>
+          <li>76 Peserta terpilih akan difollow akun instagram resmi Kemenkeu</li>
+          <li>Kesempatan menghadari IEF Expose yang akan dihadiri oleh para menteri</li>
+          <li>Kegiatan Site Visit dengan protokol kesehatan ketat selama 5 hari secara gratis (akomodasi dan biaya lain yang timbul akan ditanggung oleh BPDLH)</li>
+          <li>Online Class dengan narasumber profesional</li>
+          <li>Daily Reward, Pemenang Favorit, dan Grand Reward</li>
           <li>Seminar KIT</li>
         </ul>
       </div>
@@ -222,35 +231,46 @@
 </section>
 
 <section id="terms" class="m-responsive">
-  <div class="container">
+  <div class="container border-top">
     <div class="row">
       <div class="col">
-        <h2 class="text-capitalize font-weight-bold subsection-title w-100 text-center my-5">-- Persyaratan Umum --</h2>
+        <h2 class="text-capitalize font-weight-bold subsection-title w-100 text-center my-5">-- Syarat Pendaftaran --</h2>
       </div>
     </div>
     <div class="row">
       <div class="col">
         <ul>
-          <li>Kompetisi Youth Camp terbuka untuk seluruh mahasiswa : Mahasiswa/i berumur 18 – 23 tahun</li>
-          <li>warga Indonesia yang memiliki kartu tanda penduduk resmi atau kartu mahasiswa yang masih berlaku.</li>
-          <li>Seluruh peserta kompetisi ini tidak dipungut biaya pendaftaran.</li>
-          <li>Peserta  wajib membuat	kreasi digital yang sesuai dengan tema Jika Aku menjadi Youngvironmen </li>
+          <li>Kompetisi Youth Camp terbuka untuk seluruh mahasiswa/mahasiswi berumur 18 – 25 tahun</li>
+          <li>Peserta merupakan Warga Negara Indonesia yang memiliki kartu tanda penduduk resmi dan kartu mahasiswa yang masih berlaku</li>
+          <li>Peserta memiliki akun media sosial Instagram</li>
+          <li>Akun peserta tidak boleh dikunci (private)</li>
         </ul>
       </div>
     </div>
     <div class="row ">
       <div class="col">
-        <h2 class="text-capitalize font-weight-bold subsection-title w-100 text-center my-5">-- Syarat dan Ketentuan Kompetisi --</h2>
+        <h2 class="text-capitalize font-weight-bold subsection-title w-100 text-center my-5">-- Ketentuan Pendaftaran --</h2>
       </div>
     </div>
     <div class="row">
       <div class="col">
         <ul>
-          <li>Peserta wajib memposting hasil video ke Instagram peserta, buat caption yang menarik tentang karya tersebut, lalu tag dan mention @bpdlh.id dengan hashtag #YouthCamp #youngvironmen #bpdlhid #Kitamudakitabisa Peserta wajib follow akun media sosial Official BPDLH ID</li>
-          <li>Peserta merupakan pemilik VIDEO yang resmi untuk kompetisi ini dan merupakan ide dan gagasan diri sendiri (original).</li>
-          <li>Videografi yang disubmit sepenuhnya akan menjadi hak milik BPDLH</li>
-          <li>Periode submit mulai tanggal…..</li>
-          <li>Keputusan panitia tidak dapat diganggu gugat.</li>
+          <li>Peserta wajib mengisi form pendaftaran di <a href="//youthcamp.bpdlh.id">youthcamp.bpdlh.id</a>	</li>
+          <li>Peserta wajib membuat kreasi digital berupa video dengan durasi maksimal 60 detik yang sesuai dengan tema "Jika Aku Menjadi #YoungVironMen"</li>
+          <li>Peserta wajib menyertakan caption pada karya video yang diposting	</li>
+          <li>Peserta merupakan pemilik VIDEO yang resmi dan merupakan ide dan gagasan diri sendiri (original)</li>
+          <li>Peserta wajib:
+            <ul>
+              <li>Follow akun instagram official @bpdlh.id</li>
+              <li>Tag akun instagram Official @bpdlh.id	</li>
+              <li>Tag minimal ke 5 teman</li>
+            </ul>
+          </li>
+          <li>Postingan video wajib menggunakan hashtag <span class="long-hashtag text-green">#YouthCamp#YoungVironMen#bpdlhid#MudaPeduliLingkungan</span></li>
+          <li>Seluruh video yang telah disubmit peserta akan menjadi hak milik BPDLH</li>
+          <li>Periode pendaftaran dan posting dimulai tanggal 26 Juni sampai dengan 04 Juli 2021</li>
+          <li>Kompetisi ini tidak dipungut biaya apapun (gratis)</li>
+          <li>Keputusan panitia dan dewan juri tidak dapat diganggu gugat.</li>
         </ul>
       </div>
     </div>
