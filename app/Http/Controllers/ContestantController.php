@@ -21,15 +21,20 @@ class ContestantController extends Controller
 
     public function store(StoreContestantRequest $request)
     {
-        $validate = $request->validated();
+        if (isset($request->terms)) {
+            $validate = $request->validated();
 
-        if ($request->hasFile('ktm_image_path')) {
-            $validate['ktm_image_path'] = $request->file('ktm_image_path')->store('ktm','public');
-            $c = Contestant::create($validate);
+            if ($request->hasFile('ktm_image_path')) {
+                $validate['ktm_image_path'] = $request->file('ktm_image_path')->store('ktm','public');
+                $c = Contestant::create($validate);
 
-            $request->session()->put('id', $c->id);
+                $request->session()->put('id', $c->id);
 
-            return redirect()->route('contestant.success');
+                return redirect()->route('contestant.success');
+            }
         }
+        return redirect()->back()
+            ->withInput($request->input())
+            ->withErrors(['terms' => ['Harus menceklis syarat & persetujuan']]);
     }
 }

@@ -15,9 +15,22 @@
             
           @include('pages.contestant._form')
 
-        <button type="submit" class="btn btn-success btn-block">Create</button>
+        <button type="submit" class="btn btn-success btn-block" id="submit-button" disabled>Create</button>
       </form>
     </div>
   </div>
 </div>
+@endsection
+@section('script')
+<script>
+  EnableSubmit = function(val){
+    var sbmt = document.getElementById("submit-button");
+    if (val.checked == true){
+      sbmt.disabled = false;
+    }
+    else{
+      sbmt.disabled = true;
+    }
+  }
+</script>
 @endsection
