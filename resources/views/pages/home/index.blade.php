@@ -325,6 +325,13 @@
           </ul>
         </div>
       </div>
+      <div class="row">
+        <div class="col text-center">
+          <a class="btn cta-button my-3 font-weight-bold text-capitalize p-4" href="{{ route('download.booklet','booklet.docx') }}#about" role="button">
+            Unduh Booklet <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 </div>
