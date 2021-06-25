@@ -255,7 +255,7 @@
     <div class="row">
       <div class="col">
         <ul>
-          <li>Peserta wajib mengisi form pendaftaran di <a href="//youthcamp.bpdlh.id">youthcamp.bpdlh.id</a>	</li>
+          <li>Peserta wajib mengisi form pendaftaran di <a href="{{ url('/') }}">youthcamp.bpdlh.id</a>	</li>
           <li>Peserta wajib membuat kreasi digital berupa video dengan durasi maksimal 60 detik yang sesuai dengan tema "Jika Aku Menjadi #YoungVironMen"</li>
           <li>Peserta wajib menyertakan caption pada karya video yang diposting	</li>
           <li>Peserta merupakan pemilik VIDEO yang resmi dan merupakan ide dan gagasan diri sendiri (original)</li>
