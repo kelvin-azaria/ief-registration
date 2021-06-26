@@ -213,14 +213,15 @@
         </div>
         <div class="col-md-6 align-self-center font-weight-bold high-line-height">
           <ol>
+            <li>Sustainable Finance for Now and Future</li>
             <li>Youth Activism in Addressing Eco-Socio-Environment Issues</li>
-            <li>Sustainable Finance for Sustainable Livelihood</li>
-            <li>Fight Againts Climate Change, Save The Earth</li>
             <li>Waste Management for People and Economy</li>
+            <li>Local & Indigenous Peoples and Their Protection of Environment</li>
             <li>Renewable Energy is Our Future</li>
+            <li>Building a Personal Branding</li>
             <li>Forest, Ecosystem, Economy, and Us</li>
             <li>Social Media Nowadays and Yours</li>
-            <li>Building a Personal Branding</li>
+            <li>Road to Site Visit</li>
           </ol>
         </div>
       </div>

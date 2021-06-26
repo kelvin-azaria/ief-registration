@@ -27,6 +27,7 @@
               </div>
           </div>
         @enderror
+      <label class=" my-3">Format file berupa .JPG dan file harus berukuran dibawah 5 Mb.</label>
     </div>
 
     {{-- KAMPUS --}}
@@ -144,7 +145,7 @@
         rows="10"
       >{{ old('description', $contestant->description ?? null) }}</textarea>
     </div>
-    <div class="form-check">
+    <div class="form-check my-4">
       <input type="checkbox" class="form-check-input" name="terms" onClick="EnableSubmit(this)">
       <label class="form-check-label" for="exampleCheck1">
         Dengan ini saya menyetujui bahwa content Instagram dan Tiktok yang saya unggah untuk 

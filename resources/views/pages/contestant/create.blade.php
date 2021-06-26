@@ -15,7 +15,7 @@
             
           @include('pages.contestant._form')
 
-        <button type="submit" class="btn btn-success btn-block" id="submit-button" disabled>Create</button>
+        <button type="submit" class="btn btn btn-outline-success btn-lg btn-block" id="submit-button" disabled>Create</button>
       </form>
     </div>
   </div>
