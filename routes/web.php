@@ -40,7 +40,8 @@ Route::get('download/{filename}', function($filename)
     else
     {
         // Error
-        exit('Requested file does not exist on our server!');
+        // exit('Requested file does not exist on our server!');
+        return redirect()->route('home')->with('alert', 'Mohon maaf file tidak tersedia. Silahkan hubungi pihak panitia');
     }
 })
 ->where('filename', '[A-Za-z0-9\-\_\.]+')->name('download.booklet');
