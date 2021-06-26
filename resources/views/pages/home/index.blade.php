@@ -72,8 +72,8 @@
       <div class="row justify-content-center">
         <div class="col-10 text-center">
           <h3 class="text-white my-4 title-text font-weight-bolder">Tentang IEF</h3>
-          <p>Badan Pengelola Dana Lingkungan Hidup (BPDLH) didirikan sebagai amanat dari Peraturan Pemerintah nomor 46 tahun 2017 Pasal 30, yaitu bahwa pengelolaan pendanaan lingkungan hidup yang berasal dari dana penanggulangan pencemaran dan/atau kerusakan dan pemulihan lingkungan hidup dan dana amanah/bantuan konservasi dikelola oleh pemerintah pusat melalui mekanisme pola pengelolaan keuangan badan layanan umum. Amanat tersebut kemudian diturunkan melalui Peraturan Presiden nomor 77 tahun 2018 tentang Pengelolaan Dana Lingkungan Hidup Pasal 8 dan Pasal 10 bahwa organisasi pengelolaan dana lingkungan hidup berbentuk Badan Layanan Umum yang diarahkan oleh 10 (sepuluh) Menteri, yaitu Menteri Koordinator Bidang Perekonomian, Menteri Lingkungan Hidup dan Kehutanan, Menteri Keuangan, Menteri Dalam Negeri, Menteri Energi dan Sumber Daya Mineral, Menteri Perhubungan, Menteri Pertanian, Menteri Perencanaan Pembangunan Nasional/Kepala Badan Perencana Pembangunan Nasional, Menteri Perindustrian, dan Menteri Kelautan dan Perikanan.</p>
-          <p>Selanjutnya, melalui PMK 137/PMK.01/2019 sebagaimana telah diubah dengan PMK Nomor 24/PMK.01/2021 tentang Organisasi dan Tata Kerja Badan Pengelola Dana Lingkungan Hidup dijelaskan bahwa unit organisasi yang melaksanakan pengelolaan dana lingkungan hidup adalah unit organisasi non eselon yang dibentuk oleh Menteri Keuangan dengan menggunakan pola pengelolaan keuangan Badan Layanan Umum (BLU). Dalam pelaksanaan kegiatan penghimpunan dan penyaluran dana dapat menggunakan nomenklatur Indonesian Environment Fund (IEF).</p>
+          <p>Badan Pengelola Dana Lingkungan Hidup (BPDLH) atau Indonesian Environment Fund (IEF) adalah Instansi Pemerintah di bawah Kementerian Keuangan yang menerapkan pola pengelolaan keuangan Badan Layanan Umum yang fleksibel, transparan, prudent, dan akuntabel. </p>
+          <p>BPDLH/IEF mengelola dana di bidang kehutanan, energi dan sumber daya mineral, perdagangan karbon, jasa lingkungan, industri, transportasi, pertanian, kelautan dan perikanan, dan bidang lainnya terkait lingkungan hidup.</p>
         </div>
       </div>
     </div>
@@ -132,7 +132,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col text-center"><p><span class="pill">Durasi</span> 5 hari</p></div>
+            <div class="col text-center"><p><span class="pill">Durasi</span> 4 hari</p></div>
           </div>
           <div class="row">
             <div class="col text-center text-small"><p>(2 Hari Perjalanan 3 Hari Kunjungan)</p></div>
