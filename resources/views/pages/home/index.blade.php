@@ -117,18 +117,6 @@
         </div>
       </div>
       <div class="row justify-content-between">
-        {{-- <div class="col-md-6 p-4 align-self-center high-line-height">
-          <ol>
-            <li><span class="text-green font-weight-bold">Jakarta</span><span class="text-small"> (TPA Bantar Gebang, TWA  Angke, Kapuk, TransJakarta - MRT)</span></li>
-            <li><span class="text-green font-weight-bold">Bogor</span> <span  class="text-small"> (Recycling Center Bogor,	Rehabilitasi Elang)</span></li>
-            <li><span class="text-green font-weight-bold">Garut</span> <span  class="text-small"> (Sekolah Kopi Sunda Hejo, Perkebunan Kopi, Tanaman Obat Ciwidey)</span></li>
-            <li><span class="text-green font-weight-bold">Surabaya</span> <span  class="text-small"> (ITS Surabaya (konservasi energi & lingkungan), TPA Benowo, Pusat Daur Ulang Jambangan)</span></li>
-            <li><span class="text-green font-weight-bold">Medan</span>  <span  class="text-small"> (Bank Sampah Sicanang, PLTBG, Ekowisata Danau Toba)</span></li>
-            <li><span class="text-green font-weight-bold">Makassar</span>  <span  class="text-small"> (Bank Sampah Induk Kota Makassar, PLTB Sidrap, TN Bantimurung)</span></li>
-            <li><span class="text-green font-weight-bold">Mataram</span>  <span  class="text-small"> (PLTU Jeranjang, TPA Kota Mataram, Pengelolaan Sampah Berbasis Masyarakat Hj. Ummi Ningsih)</span></li>
-            <li><span class="text-green font-weight-bold">Manado</span>  <span  class="text-small"> (Desa Proklim, PLTP Lahendong,	TN Bunaken)</span></li>
-          </ol>
-        </div> --}}
         <div class="col font-weight-bold">
           <p class="free-pill text-uppercase">Tanpa Dipungut Biaya Apapun!</p>
           <h1 class="title-text dark-text-green font-weight-bold text-capital">Site Visit</h1>
@@ -266,12 +254,12 @@
             pada salah satu topik:
             </p>
           <ul>
-            <li>Waste Management</li>
-            <li>Ecosystem Restoration</li>
-            <li>Fight Against Climate Change</li>
-            <li>Social Forestry</li>
-            <li>Renewable Energy</li>
-            <li>Sustainable Finance</li>
+            <li>Pembangunan berkelanjutan</li>
+            <li>Pengelolaan sampah</li>
+            <li>Konservasi sumber daya alam dan ekosistem</li>
+            <li>Pengendalian perubahan iklim</li>
+            <li>Pemanfaatan energi baru terbarukan</li>
+            <li>Penegakan hukum untuk perlindungan lingkungan hidup</li>
           </ul>
         </div>
       </div>
