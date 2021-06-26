@@ -127,7 +127,7 @@
           <div class="row">
             <div class="col align-self-center">
               <div class="image-container my-4">
-                <img src="{{ asset('img/jumbotron-background.jpg') }}" alt="">
+                <img src="{{ asset('img/site-location.svg') }}" alt="">
               </div>
             </div>
           </div>
@@ -343,7 +343,7 @@
       </div>
       <div class="row">
         <div class="col text-center">
-          <a class="btn cta-button my-3 font-weight-bold text-capitalize p-4" href="{{ route('download.booklet','booklet.docx') }}#about" role="button">
+          <a class="btn cta-button my-3 font-weight-bold text-capitalize p-4" href="{{ route('download.booklet','booklet.docx') }}" role="button">
             Unduh Booklet <i class="fa fa-angle-double-right" aria-hidden="true"></i>
           </a>
         </div>
