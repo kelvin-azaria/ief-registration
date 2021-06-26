@@ -130,10 +130,10 @@
           </ol>
         </div> --}}
         <div class="col font-weight-bold">
-          <p class="free-pill text-uppercase">Free!</p>
+          <p class="free-pill text-uppercase">Tanpa Dipungut Biaya Apapun!</p>
           <h1 class="title-text dark-text-green font-weight-bold text-capital">Site Visit</h1>
           <div class="row">
-            <div class="col-auto"><p><span class="pill">Lokasi</span> 8 lokasi</span> </p></div>
+            <div class="col-auto"><p><span class="pill">Lokasi</span> 9 lokasi</span> </p></div>
             <div class="col"><p><span class="pill">Sifat</span> Offline</p></div>
           </div>
           <div class="row">
@@ -150,6 +150,9 @@
             <div class="col text-center text-small"><p>(2 Hari Perjalanan 3 Hari Kunjungan)</p></div>
           </div>
         </div>
+      </div>
+      <div class="row justify-content-center text-center text-muted font-weight-bold">
+        Jakarta • Bogor • Cirebon dan Kuningan • Garut • Surabaya • Medan • Mataram • Makassar • Balikpapan
       </div>
     </div>
   </section>
@@ -194,11 +197,11 @@
     <div class="container p-1rem">
       <div class="row justify-content-between">
         <div class="col-md-5 font-weight-bold">
-          <p class="free-pill text-uppercase">Free!</p>
+          <p class="free-pill text-uppercase">Tanpa Dipungut Biaya Apapun!</p>
           <h1 class="title-text text-white font-weight-bold text-capital">Online Class</h1>
           <div class="row">
-            <div class="col"><p><span class="pill pill-dark">Durasi</span> 4 hari</p></div>
-            <div class="col"><p><span class="pill pill-dark">Sifat</span> Offline</p></div>
+            <div class="col"><p><span class="pill pill-dark tablet-size-pill">Durasi</span> 4 hari</p></div>
+            <div class="col"><p><span class="pill pill-dark tablet-size-pill">Sifat</span> Offline</p></div>
           </div>
           <div class="row">
             <div class="col min-h-50 align-self-center">
@@ -223,6 +226,11 @@
             <li>Social Media Nowadays and Yours</li>
             <li>Road to Site Visit</li>
           </ol>
+        </div>
+      </div>
+      <div class="row justify-content-center my-5">
+        <div class="col">
+          <p class="text-white text-small text-center">* Jika terjadi perubahan, akan diinformasikan kepada Peserta *</p>
         </div>
       </div>
     </div>
