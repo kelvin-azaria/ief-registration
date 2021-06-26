@@ -230,7 +230,7 @@
       </div>
       <div class="row justify-content-center my-5">
         <div class="col">
-          <p class="text-white text-small text-center">* Jika terjadi perubahan, akan diinformasikan kepada Peserta *</p>
+          <p class="text-white text-small text-center font-weight-bold">* Jika terjadi perubahan, akan diinformasikan kepada peserta *</p>
         </div>
       </div>
     </div>
