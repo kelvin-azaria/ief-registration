@@ -192,7 +192,7 @@
           <h1 class="title-text text-white font-weight-bold text-capital">Online Class</h1>
           <div class="row">
             <div class="col"><p><span class="pill pill-dark tablet-size-pill">Durasi</span> 4 hari</p></div>
-            <div class="col"><p><span class="pill pill-dark tablet-size-pill">Sifat</span> Offline</p></div>
+            <div class="col"><p><span class="pill pill-dark tablet-size-pill">Sifat</span> Online</p></div>
           </div>
           <div class="row">
             <div class="col align-self-center">
