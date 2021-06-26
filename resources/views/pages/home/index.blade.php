@@ -236,7 +236,7 @@
         <div class="col-md-10 align-self-center my-5">
           <h2 class="text-capitalize font-weight-bold subsection-title w-100 text-center my-4">pendaftaran</h2>
           <p>Calon Peserta mendaftar secara online dengan mengupload video bertema 
-            <span class="text-green font-weight-bold">“Jika Aku menjadi YoungVironMen”</span> 
+            <span class="text-green font-weight-bold">“Jika Aku menjadi #YoungVironMen”</span> 
             pada salah satu topik:
             </p>
           <ul>

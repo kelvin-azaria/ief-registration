@@ -25,9 +25,10 @@
   <body>
     <div id="app">
       <nav class="navbar navbar-expand-lg navbar-light top-navbar sticky-top">
-        <a class="navbar-brand" href="{{ url('/') }}">
-          <img src="{{ asset('img/site-logo.png') }}" width="232"  alt="">
-        </a>
+        <p class="navbar-brand">
+          <a href="https://bpdlh.id/"><img src="{{ asset('img/ief-logo.png') }}" width="100"  alt=""></a>
+          <a href="{{ url('/') }}"><img src="{{ asset('img/yc-logo.png') }}" width="100"  alt=""></a>
+        </p>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
           <span class="fas fa-bars text-green"></span>
         </button>
