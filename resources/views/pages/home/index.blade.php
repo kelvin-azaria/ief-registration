@@ -276,7 +276,7 @@
           <div class="row mb-3">
             <div class="col">
               <h3 class="text-capitalize font-weight-bold subsection-title w-100 text-center my-4">Daily Rewards</h3>
-              <p class="text-center">5 Peserta yang mengupload content dengan pesan dan audiovisual terbaik mendapatkan reward berupa voucher @Rp100 ribu</p>
+              <p class="text-center">5 Peserta yang mengupload content dengan pesan dan audiovisual terbaik mendapatkan reward berupa voucher @Rp100 ribu untuk 5 orang setiap harinya</p>
               <h3 class="text-capitalize font-weight-bold subsection-title w-100 text-center my-4">Winner</h3>
               <div class="row text-center pb-3">
                 <div class="col text-green font-weight-bold">Juara 1</div>
