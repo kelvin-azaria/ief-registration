@@ -35,7 +35,7 @@ class StoreContestantRequest extends FormRequest
             'birth_date'         => 'required|date|before: 18 years ago',
             'instagram_video_url'=> 'required',
             'tiktok_url'         => 'required',
-            'description'        => 'required',
+            'description'        => 'string|nullable',
         ];
     }
 }

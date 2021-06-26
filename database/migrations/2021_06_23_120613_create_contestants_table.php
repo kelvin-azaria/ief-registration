@@ -25,7 +25,7 @@ class CreateContestantsTable extends Migration
             $table->string('phone');
             $table->date('birth_date');
             $table->string('instagram_video_url');
-            $table->text('description');
+            $table->text('description')->nullable();
             $table->timestamps();
         });
     }
