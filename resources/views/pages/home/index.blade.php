@@ -10,11 +10,9 @@
         </div>
         <div class="col-md-6 my-4">
           <h1 class="font-weight-bold dark-text-green my-4 title-text">Kalian Pemuda yang Peduli Lingkungan?</h1>
-          <p class="my-4">Yuk ikuti program menarik dan <strong>Gratis</strong>  dari Youth Camp yang pastinya sayang banget untuk dilewatkan.</p>
-    
-          <a class="btn cta-button text-center p-3 font-weight-bold my-3" href="{{ route('contestant.create') }}" role="button">Daftar Sekarang <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-          <a class="btn cta-button no-border display-block p-3 my-3 font-weight-bold text-capitalize" href="{{ url('/') }}#about" role="button">pelajari lebih lanjut </a>
-          
+          <p class="my-4">Yuk ikuti Program menarik dari Youth Camp yang pastinya sayang banget untuk dilewatkan.</p>
+          <a class="btn cta-button my-3 font-weight-bold text-capitalize p-4" href="{{ url('/') }}#about" role="button">pelajari lebih lanjut <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+          <a class="my-3 font-weight-bold text-capitalize p-4" href="{{ url('/') }}#about" role="button">Daftar sekarang <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>
@@ -350,7 +348,7 @@
       </div>
       <div class="row">
         <div class="col text-center">
-          <a class="btn cta-button my-3 font-weight-bold text-capitalize p-4" href="{{ route('download.booklet','booklet.docx') }}" role="button">
+          <a class="btn cta-button my-3 font-weight-bold text-capitalize p-4" href="{{ route('download.booklet','booklet.pdf') }}" role="button">
             Unduh Booklet <i class="fa fa-angle-double-right" aria-hidden="true"></i>
           </a>
         </div>

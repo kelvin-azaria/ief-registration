@@ -30,17 +30,13 @@ Route::get('download/{filename}', function($filename)
 {
     // Check if file exists in app/storage/file folder
     $file_path = 'storage/file/'. $filename;
-    if (file_exists($file_path))
-    {
+    if (file_exists($file_path)){
         // Send Download
         return Response::download($file_path, $filename, [
             'Content-Length: '. filesize($file_path)
         ]);
     }
-    else
-    {
-        // Error
-        // exit('Requested file does not exist on our server!');
+    else{
         return redirect()->route('home')->with('alert', 'Mohon maaf file tidak tersedia. Silahkan hubungi pihak panitia');
     }
 })
