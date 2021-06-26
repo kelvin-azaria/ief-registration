@@ -296,7 +296,7 @@
           <ul>
             <li class="pb-2">Seluruh Peserta mendapatkan
               <ul>
-                <li>exclusive classes dari Leading Experts (kelas daring)</li>
+                <li>Exclusive classes dari Leading Experts (kelas daring)</li>
                 <li>Berkunjung ke lokasi terkait lingkungan hidup (kunjungan lapangan),dan</li>
                 <li>Sertifikat keikutsertaan</li>
               </ul>
