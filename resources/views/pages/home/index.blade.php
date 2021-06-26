@@ -10,8 +10,11 @@
         </div>
         <div class="col-md-6 my-4">
           <h1 class="font-weight-bold dark-text-green my-4 title-text">Kalian Pemuda yang Peduli Lingkungan?</h1>
-          <p class="my-4">Yuk ikuti Program menarik dari Youth Camp yang pastinya sayang banget untuk dilewatkan.</p>
-          <a class="btn cta-button my-3 font-weight-bold text-capitalize p-4" href="{{ url('/') }}#about" role="button">pelajari lebih lanjut <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+          <p class="my-4">Yuk ikuti program menarik dan <strong>Gratis</strong>  dari Youth Camp yang pastinya sayang banget untuk dilewatkan.</p>
+    
+          <a class="btn cta-button text-center p-3 font-weight-bold my-3" href="{{ route('contestant.create') }}" role="button">Daftar Sekarang <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+          <a class="btn cta-button no-border display-block p-3 my-3 font-weight-bold text-capitalize" href="{{ url('/') }}#about" role="button">pelajari lebih lanjut </a>
+          
         </div>
       </div>
     </div>
@@ -21,7 +24,7 @@
     <div class="container p-1rem">
       <div class="row justify-content-center">
         <div class="col-sm-6">
-          <h1 class="font-weight-bold text-muted w-100 text-center pb-2 support-text">Supported By:</h1>
+          <h1 class="font-weight-bold text-muted w-100 text-center pb-2 support-text">Organized By:</h1>
         </div>
       </div>
       <div class="row justify-content-center">
@@ -32,7 +35,7 @@
     </div>
   </section>
 
-  <div class="background-tail-img">
+  <div id="about" class="background-tail-img">
     <svg viewBox="0 0 1440 222" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g clip-path="url(#clip0)">
       <g filter="url(#filter0_d)">
@@ -67,7 +70,7 @@
       </defs>
     </svg>
   </div>
-  <section id="about" class="relative-pos bg-green text-white">
+  <section class="relative-pos bg-green text-white">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-10 text-center">
@@ -103,7 +106,7 @@
             <h3 class="font-weight-bold text-muted w-100 text-center">Sampaikan Pesan dan Kepedulianmu Terhadap Lingkungan</h3>
             <p class="font-weight-bold text-green w-100 text-center my-2"> Upload aksi kamu dan jadilah YoungVironMen</p>
           </div>
-          <a class="btn cta-button w-100 text-center p-3 font-weight-bold my-3" href="{{ route('contestant.create') }}" role="button">Registrasi Gratis <i class="px-2 fas fa-pen-alt"></i></a>
+          <a class="btn cta-button w-100 text-center large-text p-3 font-weight-bold my-3" href="{{ route('contestant.create') }}" role="button">Registrasi <i class="px-2 fas fa-pen-alt"></i></a>
         </div>
       </div>
     </div>
@@ -118,7 +121,7 @@
       </div>
       <div class="row justify-content-between">
         <div class="col font-weight-bold">
-          <p class="free-pill text-uppercase">Tanpa Dipungut Biaya Apapun!</p>
+          <p class="free-pill text-uppercase">GRATIS !</p>
           <h1 class="title-text dark-text-green font-weight-bold text-capital">Site Visit</h1>
           <div class="row">
             <div class="col-auto"><p><span class="pill">Lokasi</span> 9 lokasi</span> </p></div>
@@ -135,7 +138,7 @@
             <div class="col text-center"><p><span class="pill">Durasi</span> 4 hari</p></div>
           </div>
           <div class="row">
-            <div class="col text-center text-small"><p>(2 Hari Perjalanan 3 Hari Kunjungan)</p></div>
+            <div class="col text-center text-small"><p>(2 Hari Perjalanan 2 Hari Kunjungan)</p></div>
           </div>
         </div>
       </div>
@@ -185,16 +188,16 @@
     <div class="container p-1rem">
       <div class="row justify-content-between">
         <div class="col-md-5 font-weight-bold">
-          <p class="free-pill text-uppercase">Tanpa Dipungut Biaya Apapun!</p>
+          <p class="free-pill text-uppercase">GRATIS !</p>
           <h1 class="title-text text-white font-weight-bold text-capital">Online Class</h1>
           <div class="row">
             <div class="col"><p><span class="pill pill-dark tablet-size-pill">Durasi</span> 4 hari</p></div>
             <div class="col"><p><span class="pill pill-dark tablet-size-pill">Sifat</span> Offline</p></div>
           </div>
           <div class="row">
-            <div class="col min-h-50 align-self-center">
-              <div class="image-round-container">
-                <img src="{{ asset('img/jumbotron-background.jpg') }}" alt="">
+            <div class="col align-self-center">
+              <div class="image-container">
+                <img src="{{ asset('img/online-learning-bro.svg') }}" alt="">
               </div>
             </div>
           </div>
@@ -229,8 +232,23 @@
 
   <section id="rewards">
     <div class="container p-1rem">
-      <div class="row justify-content-between">
-        <div class="col-md-5">
+      <div class="row justify-content-center">
+        <div class="col-md-10 align-self-center my-5">
+          <h2 class="text-capitalize font-weight-bold subsection-title w-100 text-center my-4">pendaftaran</h2>
+          <p>Calon Peserta mendaftar secara online dengan mengupload video bertema 
+            <span class="text-green font-weight-bold">“Jika Aku menjadi YoungVironMen”</span> 
+            pada salah satu topik:
+            </p>
+          <ul>
+            <li>Pembangunan berkelanjutan</li>
+            <li>Pengelolaan sampah</li>
+            <li>Konservasi sumber daya alam dan ekosistem</li>
+            <li>Pengendalian perubahan iklim</li>
+            <li>Pemanfaatan energi baru terbarukan</li>
+            <li>Penegakan hukum untuk perlindungan lingkungan hidup</li>
+          </ul>
+        </div>
+        {{-- <div class="col-md-5">
           <h3 class="pill pill-title-text text-center font-weight-bold dark-text-green bg-light-green">Prizes</h3>
           <div class="row">
             <div class="col-sm-6">
@@ -246,26 +264,15 @@
               <p class="text-center">Voucher</p>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 align-self-center">
-          <h2 class="text-capitalize font-weight-bold subsection-title w-100 text-center my-4">pendaftaran</h2>
-          <p>Calon Peserta mendaftar secara online dengan mengupload video bertema 
-            <span class="text-green font-weight-bold">“Jika Aku menjadi Youngvironment”</span> 
-            pada salah satu topik:
-            </p>
-          <ul>
-            <li>Pembangunan berkelanjutan</li>
-            <li>Pengelolaan sampah</li>
-            <li>Konservasi sumber daya alam dan ekosistem</li>
-            <li>Pengendalian perubahan iklim</li>
-            <li>Pemanfaatan energi baru terbarukan</li>
-            <li>Penegakan hukum untuk perlindungan lingkungan hidup</li>
-          </ul>
+        </div> --}}
+      </div>
+      <div id="benefit" class="row">
+        <div class="col">
+          <h3 class="pill pill-title-text text-center font-weight-bold dark-text-green bg-light-green">Total Hadiah</h3>
         </div>
       </div>
       <div class="row class mt-5 justify-content-between">
         <div class="col-md-5">
-          <h3 class="pill pill-title-text text-center font-weight-bold dark-text-green bg-light-green">Total Hadiah</h3>
           <div class="row mb-3">
             <div class="col">
               <h3 class="text-capitalize font-weight-bold subsection-title w-100 text-center my-4">Daily Rewards</h3>
@@ -290,13 +297,13 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 align-self-center">
+        <div class="col-md-6">
           <h2 class="text-capitalize font-weight-bold subsection-title w-100 text-center my-4">Benefits</h2>
 
           <ul>
-            <li class="pb-2">Seluruh Peserta mendapatkan
+            <li class="pb-3">Seluruh Peserta mendapatkan
               <ul>
-                <li>Exclusive classes dari Leading Experts (kelas daring)</li>
+                <li class="pt-2">Exclusive classes dari Leading Experts (kelas daring)</li>
                 <li>Berkunjung ke lokasi terkait lingkungan hidup (kunjungan lapangan),dan</li>
                 <li>Sertifikat keikutsertaan</li>
               </ul>
@@ -308,8 +315,8 @@
       </div>
     </div>
   </section>
-
-  <section id="timeline">
+  <div id="timeline"></div>
+  <section>
     <div class="container">
       <div class="row">
         <div class="col">
@@ -321,7 +328,7 @@
           <div class="row">
             <div class="col align-self-center">
               <div class="image-container my-4">
-                <img src="{{ asset('img/jumbotron-background.jpg') }}" alt="">
+                <img src="{{ asset('img/timeline.png') }}" alt="">
               </div>
             </div>
           </div>

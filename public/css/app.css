@@ -10041,6 +10041,14 @@ nav {
   color: #19421A !important;
 }
 
+.no-border {
+  border: none !important;
+}
+
+.large-text {
+  font-size: x-large !important;
+}
+
 .cta-button {
   background-color: white;
   color: #4CAD39;

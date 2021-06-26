@@ -44,7 +44,7 @@
               <a class="nav-link font-weight-bold" href="{{ url('/') }}#onlineClass">Online Class</a>
             </li>
             <li class="nav-item align-self-center">
-              <a class="nav-link font-weight-bold" href="{{ url('/') }}#rewards">Benefits</a>
+              <a class="nav-link font-weight-bold" href="{{ url('/') }}#benefit">Benefits</a>
             </li>
             <li class="nav-item align-self-center">
               <a class="nav-link font-weight-bold" href="{{ url('/') }}#timeline">Timeline</a>
@@ -62,9 +62,14 @@
     </div>
     <footer>
       <div class="container-fluid text-white bg-dark py-3">
-        <div class="row">
+        <div class="row my-3">
           <div class="col">
             <small>&copy; Copyright <script>document.write(new Date().getFullYear())</script> IEF Youth Camp</small>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a href="https://storyset.com/online">Online illustrations by Storyset</a>
           </div>
         </div>
       </div>

@@ -28,6 +28,13 @@ nav{
 .dark-text-green{
   color: $dark-green !important;
 }
+.no-border{
+  border: none !important;
+
+}
+.large-text{
+  font-size: x-large !important;
+}
 .cta-button{
   background-color: white;
   color: $light-green;
