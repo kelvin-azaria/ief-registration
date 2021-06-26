@@ -34,20 +34,26 @@
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <li class="nav-item align-self-center">
               <a class="nav-link font-weight-bold" href="{{ url('/') }}#about">Tentang</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item align-self-center">
               <a class="nav-link font-weight-bold" href="{{ url('/') }}#siteVisits">Site Visit</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item align-self-center">
               <a class="nav-link font-weight-bold" href="{{ url('/') }}#onlineClass">Online Class</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item align-self-center">
+              <a class="nav-link font-weight-bold" href="{{ url('/') }}#rewards">Benefits</a>
+            </li>
+            <li class="nav-item align-self-center">
+              <a class="nav-link font-weight-bold" href="{{ url('/') }}#timeline">Timeline</a>
+            </li>
+            <li class="nav-item align-self-center">
               <a class="nav-link font-weight-bold" href="{{ url('/') }}#terms">Persyaratan</a>
             </li>
             <li class="nav-item">
-              <a class="btn btn-primary font-weight-bold" href="{{ route('contestant.create') }}" role="button">Registrasi</a>
+              <a class="btn cta-button font-weight-bold" href="{{ route('contestant.create') }}" role="button">Registrasi <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
             </li>
           </ul>
         </div>

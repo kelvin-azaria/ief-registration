@@ -133,12 +133,12 @@
           <p class="free-pill text-uppercase">Free!</p>
           <h1 class="title-text dark-text-green font-weight-bold text-capital">Site Visit</h1>
           <div class="row">
-            <div class="col"><p><span class="pill">Lokasi</span> 8 lokasi</span> </p></div>
+            <div class="col-auto"><p><span class="pill">Lokasi</span> 8 lokasi</span> </p></div>
             <div class="col"><p><span class="pill">Sifat</span> Offline</p></div>
           </div>
           <div class="row">
-            <div class="col min-h-50 align-self-center">
-              <div class="image-round-container">
+            <div class="col align-self-center">
+              <div class="image-container my-4">
                 <img src="{{ asset('img/jumbotron-background.jpg') }}" alt="">
               </div>
             </div>
@@ -269,25 +269,25 @@
       <div class="row class mt-5 justify-content-between">
         <div class="col-md-5">
           <h3 class="pill pill-title-text text-center font-weight-bold dark-text-green bg-light-green">Total Hadiah</h3>
-          <div class="row">
+          <div class="row mb-3">
             <div class="col">
               <h3 class="text-capitalize font-weight-bold subsection-title w-100 text-center my-4">Daily Rewards</h3>
               <p class="text-center">5 Peserta yang mengupload content dengan pesan dan audiovisual terbaik mendapatkan reward berupa voucher @Rp100 ribu</p>
               <h3 class="text-capitalize font-weight-bold subsection-title w-100 text-center my-4">Winner</h3>
-              <div class="row text-center">
+              <div class="row text-center pb-3">
                 <div class="col text-green font-weight-bold">Juara 1</div>
                 <div class="col">Rp 13,000,000,-</div>
               </div>
-              <div class="row text-center">
+              <div class="row text-center pb-3">
                 <div class="col text-green font-weight-bold">Juara 2</div>
                 <div class="col">Rp 9,000,000,-</div>
               </div>
-              <div class="row text-center">
+              <div class="row text-center pb-3">
                 <div class="col text-green font-weight-bold">Juara 3</div>
                 <div class="col">Rp 5,000,000,-</div>
               </div>
-              <div class="row text-center">
-                <div class="col text-green font-weight-bold">Juara Favorit (3 orang)</div>
+              <div class="row text-center pb-3">
+                <div class="col text-green font-weight-bold">Juara Favorit <br>(3 orang)</div>
                 <div class="col">Rp 1,000,000,-</div>
               </div>
             </div>
@@ -295,19 +295,43 @@
         </div>
         <div class="col-md-6 align-self-center">
           <h2 class="text-capitalize font-weight-bold subsection-title w-100 text-center my-4">Benefits</h2>
+
           <ul>
-            <li>76 Peserta terpilih akan difollow akun instagram resmi Kemenkeu</li>
-            <li>Kesempatan menghadari IEF Expose yang akan dihadiri oleh para menteri</li>
-            <li>Kegiatan Site Visit dengan protokol kesehatan ketat selama 5 hari secara gratis (akomodasi dan biaya lain yang timbul akan ditanggung oleh BPDLH)</li>
-            <li>Online Class dengan narasumber profesional</li>
-            <li>Daily Reward, Pemenang Favorit, dan Grand Reward</li>
-            <li>Seminar KIT</li>
+            <li class="pb-2">Seluruh Peserta mendapatkan
+              <ul>
+                <li>exclusive classes dari Leading Experts (kelas daring)</li>
+                <li>exclusive classes dari Leading Experts (kelas daring),dan</li>
+                <li>exclusive classes dari Leading Experts (kelas daring);</li>
+              </ul>
+            </li>
+            <li class="pb-2">5 Pemenang daily challenges mendapatkan @Rp100.000.</li>
+            <li class="pb-2">3 Peserta dengan content yang mendapatkan jumlah “Like” paling banyak s.d. tanggal 15 Agustus 2021 ditetapkan sebagai Juara Favorit</li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
+  <section id="timeline">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="text-capitalize font-weight-bold subsection-title w-100 text-center my-5">-- Timeline --</h2>
+        </div>
+      </div>
+      <div class="row justify-content-between">
+        <div class="col font-weight-bold">
+          <div class="row">
+            <div class="col align-self-center">
+              <div class="image-container my-4">
+                <img src="{{ asset('img/jumbotron-background.jpg') }}" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section id="terms" class="m-responsive">
     <div class="container border-top">
       <div class="row">
