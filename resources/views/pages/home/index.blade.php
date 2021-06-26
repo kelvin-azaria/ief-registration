@@ -301,8 +301,8 @@
             <li class="pb-2">Seluruh Peserta mendapatkan
               <ul>
                 <li>exclusive classes dari Leading Experts (kelas daring)</li>
-                <li>exclusive classes dari Leading Experts (kelas daring),dan</li>
-                <li>exclusive classes dari Leading Experts (kelas daring);</li>
+                <li>Berkunjung ke lokasi terkait lingkungan hidup (kunjungan lapangan),dan</li>
+                <li>Sertifikat keikutsertaan</li>
               </ul>
             </li>
             <li class="pb-2">5 Pemenang daily challenges mendapatkan @Rp100.000.</li>
