@@ -24,7 +24,11 @@ Route::get('/contestant', [ContestantController::class, 'show'])->name('contesta
 
 Route::resource('dashboard', DashboardController::class)->only(['show']);
 
-Auth::routes();
+Auth::routes([
+    'register' => false,
+    'reset' => false,
+    'verify' => false,
+]);
 
 Route::get('download/{filename}', function($filename)
 {
