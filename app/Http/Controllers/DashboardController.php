@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Exports\ContestantExport;
 use App\Models\Contestant;
 use Illuminate\Http\Request;
+use Maatwebsite\Excel\Facades\Excel;
 
 class DashboardController extends Controller
 {
@@ -32,5 +34,10 @@ class DashboardController extends Controller
     {
         $contestants = Contestant::paginate(10);
         return view('pages.dashboard.index',['contestants' => $contestants]);
+    }
+
+    public function export()
+    {
+        return Excel::download(new ContestantExport, 'pendaftar.xlsx');
     }
 }

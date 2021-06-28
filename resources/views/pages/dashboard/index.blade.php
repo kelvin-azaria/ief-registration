@@ -4,6 +4,7 @@
 <div class="container-fluid">
   <div class="row justify-content-center">
     <div class="col-md-10">
+      <a href="{{ route('dashboard.export') }}" class="btn btn-success">Export All Data</a>
       <table class="table table-bordered table-hover">
         <thead class="font-weight-bold">
           <tr>

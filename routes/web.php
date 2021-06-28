@@ -17,12 +17,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
 Route::resource('contestant', ContestantController::class)->only(['create', 'store']);
 Route::get('/contestant', [ContestantController::class, 'show'])->name('contestant.success');
 
-Route::resource('dashboard', DashboardController::class)->only(['show']);
+Route::get('/dashboard/export', [DashboardController::class, 'export'])->name('dashboard.export');
+Route::resource('dashboard', DashboardController::class)->only(['index','show']);
 
 Auth::routes([
     'register' => false,
