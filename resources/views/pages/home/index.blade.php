@@ -210,8 +210,8 @@
             <li>Waste Management for People and Economy</li>
             <li>Local & Indigenous Peoples and Their Protection of Environment</li>
             <li>Renewable Energy is Our Future</li>
+            <li>The Clean Ocean</li>
             <li>Building a Personal Branding</li>
-            <li>Forest, Ecosystem, Economy, and Us</li>
             <li>Social Media Nowadays and Yours</li>
             <li>Road to Site Visit</li>
           </ol>
@@ -274,7 +274,7 @@
           <div class="row mb-3">
             <div class="col">
               <h3 class="text-capitalize font-weight-bold subsection-title w-100 text-center my-4">Daily Rewards</h3>
-              <p class="text-center">5 Peserta yang mengupload content dengan pesan dan audiovisual terbaik mendapatkan reward berupa voucher Rp100.000,- untuk 5 orang setiap harinya</p>
+              <p class="text-center">5 Peserta yang mengupload content dengan pesan dan audiovisual terbaik mendapatkan reward berupa voucher Rp200.000,- untuk 5 orang setiap harinya</p>
               <h3 class="text-capitalize font-weight-bold subsection-title w-100 text-center my-4">Winner</h3>
               <div class="row text-center pb-3">
                 <div class="col text-green font-weight-bold">Juara 1</div>
@@ -302,12 +302,13 @@
             <li class="pb-3">Seluruh Peserta mendapatkan
               <ul>
                 <li class="pt-2">Exclusive classes dari Leading Experts (kelas daring)</li>
-                <li>Berkunjung ke lokasi terkait lingkungan hidup (kunjungan lapangan),dan</li>
+                <li>Educational trip (kunjungan lapangan),dan</li>
                 <li>Sertifikat keikutsertaan</li>
               </ul>
             </li>
             <li class="pb-2">5 Pemenang daily challenges mendapatkan @Rp100.000.</li>
-            <li class="pb-2">3 Peserta dengan content yang mendapatkan jumlah “Like” paling banyak s.d. tanggal 15 Agustus 2021 ditetapkan sebagai Juara Favorit</li>
+            <li class="pb-2">3 Pendaftar dengan content yang mendapatkan jumlah “Like” paling banyak* dan memiliki pesan yang menarik* s.d. tanggal 5 Oktober 2021 ditetapkan sebagai Juara Favorit</li>
+            <p>(*) Untuk lebih detail dalam penilaian silahkan download booklet</p>
           </ul>
         </div>
       </div>

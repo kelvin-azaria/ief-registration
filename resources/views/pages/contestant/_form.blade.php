@@ -106,7 +106,7 @@
 
     {{-- URL VIDEO --}}
     <div class="form-group">
-      <label>Link Video Instagram</label>
+      <label>Link postingan content Instagram</label>
       <input 
         type="text"
         name="instagram_video_url" 
@@ -115,7 +115,7 @@
         value="{{ old('instagram_video_url', $contestant->instagram_video_url ?? null) }}"/>
     </div> 
     <div class="form-group">
-      <label>Link Tiktok</label>
+      <label>Link postingan content Tiktok</label>
       <input 
         type="text"
         name="tiktok_url" 
@@ -148,10 +148,7 @@
     <div class="form-check my-4">
       <input type="checkbox" class="form-check-input" name="terms" onClick="EnableSubmit(this)">
       <label class="form-check-label" for="exampleCheck1">
-        Dengan ini saya menyetujui bahwa content Instagram dan Tiktok yang saya unggah untuk 
-        pendaftaran dan pelaksanaan challenges kegiatan Youth Camp for Future Leader on 
-        Environment Tahun 2021 dapat digunakan oleh Panitia dan BPDLH/IEF untuk keperluan 
-        publikasi dan non komersial lainnya.
+        Dengan ini saya menyetujui bahwa Panitia dan BPDLH/IEF tidak bertanggung jawab jika di kemudian hari terdapat permasalahan hukum mengenai hak cipta dari karya (paper dan content) saya sampaikan.
       </label>
       @error('terms')
         <div class="mt-2 mb-2">
