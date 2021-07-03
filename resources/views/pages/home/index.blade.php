@@ -11,8 +11,8 @@
         <div class="col-md-6 my-4">
           <h1 class="font-weight-bold dark-text-green my-4 title-text">Kalian Pemuda yang Peduli Lingkungan?</h1>
           <p class="my-4">Yuk ikuti Program menarik dari Youth Camp yang pastinya sayang banget untuk dilewatkan.</p>
-          <a class="btn cta-button my-3 font-weight-bold text-capitalize p-4" href="{{ url('/') }}#about" role="button">pelajari lebih lanjut <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-          <a class="my-3 font-weight-bold text-capitalize p-4" href="{{ url('/') }}#about" role="button">Daftar sekarang <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+          <a class="btn cta-button my-3 font-weight-bold text-capitalize p-4" href="{{ route('contestant.create') }}"  role="button">Daftar sekarang <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+          <a class="my-3 font-weight-bold text-capitalize p-4" href="{{ url('/') }}#about" role="button">pelajari lebih lanjut <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>
@@ -94,7 +94,7 @@
       <div class="row my-3 justify-content-center">
         <div class="col align-self-center">
           <div class="image-container py-4">
-            <img height="20rem" src="{{ asset('img/yc-logo.png') }}" alt="">
+            <img src="{{ asset('img/yc-logo.png') }}" alt="">
           </div>
         </div>
       </div>
@@ -110,7 +110,7 @@
     </div>
   </section>
 
-  <section id="siteVisits">
+  {{-- <section id="siteVisits">
     <div class="container">
       <div class="row">
         <div class="col">
@@ -144,7 +144,7 @@
         Jakarta • Bogor • Cirebon dan Kuningan • Garut • Surabaya • Medan • Mataram • Makassar • Balikpapan
       </div>
     </div>
-  </section>
+  </section> --}}
 
   <div class="background-tail-img">
     <svg viewBox="0 0 1440 222" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -306,7 +306,7 @@
                 <li>Sertifikat keikutsertaan</li>
               </ul>
             </li>
-            <li class="pb-2">5 Pemenang daily challenges mendapatkan @Rp100.000.</li>
+            <li class="pb-2">5 Pemenang daily challenges mendapatkan Rp200.000.</li>
             <li class="pb-2">3 Pendaftar dengan content yang mendapatkan jumlah “Like” paling banyak* dan memiliki pesan yang menarik* s.d. tanggal 5 Oktober 2021 ditetapkan sebagai Juara Favorit</li>
             <p>(*) Untuk lebih detail dalam penilaian silahkan download booklet</p>
           </ul>
