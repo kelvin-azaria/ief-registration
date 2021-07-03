@@ -146,9 +146,22 @@
       >{{ old('description', $contestant->description ?? null) }}</textarea>
     </div>
     <div class="form-check my-4">
-      <input type="checkbox" class="form-check-input" name="terms" onClick="EnableSubmit(this)">
-      <label class="form-check-label" for="exampleCheck1">
+      <input type="checkbox" class="form-check-input" name="rights" id="rights" onClick="EnableSubmit()">
+      <label class="form-check-label" for="rights">
         Dengan ini saya menyetujui bahwa Panitia dan BPDLH/IEF tidak bertanggung jawab jika di kemudian hari terdapat permasalahan hukum mengenai hak cipta dari karya (paper dan content) saya sampaikan.
+      </label>
+      @error('rights')
+        <div class="mt-2 mb-2">
+            <div class="alert alert-danger" role="alert">
+              {{ $message }}
+            </div>
+        </div>
+      @enderror
+    </div>
+    <div class="form-check my-4">
+      <input type="checkbox" class="form-check-input" name="terms" id="terms" onClick="EnableSubmit()">
+      <label class="form-check-label" for="rights">
+        Dengan ini saya menyetujui bahwa content Instagram dan Tiktok yang saya unggah untuk pendaftaran dan pelaksanaan challenges kegiatan Youth Camp for Future Leader on Environment Tahun 2021 dapat digunakan oleh Panitia dan BPDLH/IEF untuk keperluan publikasi dan non komersial lainnya.
       </label>
       @error('terms')
         <div class="mt-2 mb-2">

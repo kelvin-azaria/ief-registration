@@ -25,10 +25,11 @@
 <script>
   EnableSubmit = function(val){
     var sbmt = document.getElementById("submit-button");
-    if (val.checked == true){
+    var rights = document.getElementById("rights");
+    var terms = document.getElementById("terms");
+    if (rights.checked == true && terms.checked == true){
       sbmt.disabled = false;
-    }
-    else{
+    }else{
       sbmt.disabled = true;
     }
   }

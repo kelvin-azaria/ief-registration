@@ -21,7 +21,7 @@ class ContestantController extends Controller
 
     public function store(StoreContestantRequest $request)
     {
-        if (isset($request->terms)) {
+        if ((isset($request->terms)) && (isset($request->rights))) {
             $validate = $request->validated();
 
             if ($request->hasFile('ktm_image_path')) {
@@ -35,6 +35,6 @@ class ContestantController extends Controller
         }
         return redirect()->back()
             ->withInput($request->input())
-            ->withErrors(['terms' => ['Harus menceklis syarat & persetujuan']]);
+            ->withErrors(['terms' => ['Harus menceklis semua syarat & persetujuan']]);
     }
 }
